@@ -1,0 +1,39 @@
+.my_contact{
+	padding: 2rem;
+	align-items: center;
+}
+
+
+.my_contact span{
+	height: fit-content;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	display: table;
+
+}
+
+.my_contact span i{
+	padding-right: 1rem;
+	display: table-cell;
+	width: fit-content;
+}
+.contact_container form{
+	max-width: 60%;
+	margin: 0 auto;
+}
+#contact-mob form{
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+#contact-mob .flex-box-2{
+	flex: 0 100%;
+	max-width: 100%;
+}
+#contact-mob .text_heading_3{
+	color: #86c232;
+}
+#contact-mob button[type='submit']{
+	padding: 0.4rem 1.5rem;
+	margin-top: 0.3rem;
+}

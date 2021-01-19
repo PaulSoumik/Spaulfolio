@@ -1,0 +1,54 @@
+.brief_information{
+	width: 100%;
+	margin-top: -5rem;
+	padding: 0;
+	margin-bottom: 2rem;
+	background: #323639;
+	display: flex;
+	flex-wrap: wrap;
+
+	align-items: center;
+
+}
+
+.brief_information .relative_margin{
+	flex: 0 35%;
+	display: flex;
+}
+.brief_information .relative_margin .text_heading_3{
+	
+	display: block;
+	position: relative;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    color: white;
+    font-weight: 300;
+    font-size: 1.9em;
+    padding-bottom: 6rem;
+
+}
+.brief_information .relative_margin .text_heading_3 span{
+	color: #86c232;
+	font-weight: 500;
+}
+.brief_information .text_medium{
+	margin: 0;
+	flex: 0 65%;
+	padding: 2rem 3rem;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: white;
+	
+}
+
+
+
+#about-mob .text_medium{
+	flex:0 100%;
+}
+#about-mob .relative_margin{
+	flex:0 100%;
+}
+#about-mob .forward_link{
+	font-size: 1em !important;
+}

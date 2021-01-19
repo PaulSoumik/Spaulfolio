@@ -1,0 +1,52 @@
+.getresume{
+	padding: 1rem 0;
+	background: #171a1f;
+}
+
+.getresume .flex_cotainer{
+	justify-content: space-between;
+	
+	color: #fff;
+}
+.getresume .content{
+	
+    background-color:inherit;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    padding-right: 15%;
+}
+.getresume .linktodownload{
+	width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.getresume .linktodownload p{
+	padding-right: 1rem;
+	text-decoration: underline;
+	color: #86c232;
+	font-size: 1.1em;
+    font-weight: 500;
+}
+.getresume .linktodownload nav{
+	text-align: center;
+	align-items: center;
+}
+.getresume .linktodownload nav a{
+	padding-right: 0.4rem;
+	font-size: 0.9em;
+	margin: 0 auto;
+	color: #86c232;
+}
+
+
+#resume-mob .content{
+	flex: 0 1 100%;
+    max-width: 100%;
+}
+.fa-download{
+	overflow: visible;
+}
