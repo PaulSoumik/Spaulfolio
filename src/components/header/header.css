@@ -14,6 +14,7 @@
 }
 #mob{
 	overflow: hidden;
+	width: 100%;
 }
 #bigsc .header-align{
 	float: left;
