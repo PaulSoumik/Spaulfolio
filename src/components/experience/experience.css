@@ -1,36 +1,37 @@
-.projects-info{
+.experiences-info{
 	margin: 1rem 0rem;
 }
-.project_detail{
-	padding: 3rem 4rem;
-	display: flex;
+.experience_details{
+	padding: 0rem 4rem;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	
 
 }
-.project_link{
-	padding: 3rem 2rem;
+.experience_link{
+	padding: 0rem 4rem;
 	justify-content: space-between;
 }
-.project_link .forward_link{
+.experience_link .forward_link{
 	bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 5rem;
 }
-.project_link h1{
+.experience_link h1{
 	width: 80%;
 }
-.project_side_heading{
+.experience_side_heading{
 	font-size: 20px;
 }
 
-.project_1 .project_heading::before{
+.experience_1 .experience_heading::before{
 	content: "1";
 }
-.project_2 .project_heading::before{
+.experience_2 .experience_heading::before{
 	content: "2";
 }
-.project_heading::before{
+.experience_heading::before{
 	height: 3rem;
 	width: 3rem;
 	border-radius: 50%;
@@ -65,18 +66,18 @@
 
 
 
-#project-mob{
+#experience-mob{
 	display: block;
 }
-#project-mob .forward_link{
+#experience-mob .forward_link{
 	font-size: 1.2em;
 }
-#project-mob .project_detail{
+#experience-mob .experience_detail{
 	display: block;
-	padding: 3rem 3.5rem;
+	padding: 0rem 3.5rem;
 	padding-bottom: 0.5rem;
 	max-width: 100% !important;
 }
-#project-mob .project_link{
+#experience-mob .experience_link{
 	max-width: 100% !important;
 }

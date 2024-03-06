@@ -7,7 +7,14 @@ function Skills() {
   
 	const [state, setState] = useState({
     	mobileView: false,
-    	skills:["C++","C","Python","Django","SQL","React JS","HTML5","CSS","SASS" ,"Javascript","REST API","Bootstrap","jQuery","SASS","PostgreSQL", "git"]
+    	skills:[
+			"Proficient in programming languages such as C, C++, Apex, Java.",
+			"Ability to work with frontend frameworks such as ReactJS, lightning web components, Vsualforce pages.",
+			"Understanding of backend frameworks like ExpressJS, Django and Spring.",
+			"Expertise in building RESTful APIs.",
+			"Database management using SQL, SOQL and DBMS.",
+			"Experience with Object Oriented Programming ad Problem Solving.",
+			"Familiarity with version control systems like Git and CI/CD pipelines."]
   	})
 	const { mobileView, skills } = state;
   
@@ -27,8 +34,8 @@ function Skills() {
 		<ul className="skillslist flex_cotainer flex_row">
 			{skills.map(
 			(skill) => (
-				<li>
-					<p> {skill} </p>
+				<li className = 'flex_card'>
+					<p className = 'text-vertical-center'> {skill} </p>
 				</li>
 			))}
 		</ul>
