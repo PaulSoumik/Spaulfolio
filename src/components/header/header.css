@@ -9,7 +9,7 @@
 	display: flow-root;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 0.3s ease-in-out;
-	border-bottom: 1px solid #86c232;
+	border-bottom: 1px solid #4d62da;
 
 }
 #mob{
@@ -20,6 +20,6 @@
 	float: left;
 }
 #bigsc .header-align a{
-	color: #86c232;
+	color: #4d62da;
 	font-weight: bold;
 }

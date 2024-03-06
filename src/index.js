@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import "./mycss/style.css";
 import projectService from "./projectService";
+import experienceService from "./experienceService";
 import Header from "./components/header/header";
 import Projects from "./components/projects/projects";
 import Landing from "./components/landing/landing";
@@ -9,11 +10,13 @@ import Information from "./components/information/information";
 import Skills from "./components/skills/skills";
 import Resume from "./components/resume/resume";
 import Contact from "./components/contact/contact";
+import Experience from "./components/experience/experience";
 
 
 class Folio extends Component{
 	state={
-		allpro: []
+		allpro: [],
+		myExp: []
 	};
 
 	getProjects = () => {
@@ -21,8 +24,15 @@ class Folio extends Component{
 			allpro: projectService
 		});
 	};
+	getExperiences = () =>{
+		console.log(experienceService);
+		this.setState({
+			myExp: experienceService
+		});
+	};
 	componentDidMount(){
 		this.getProjects();
+		this.getExperiences();
 	}
 
 	render(){
@@ -32,6 +42,7 @@ class Folio extends Component{
 					<Landing/>
 					<Information/>
 					<Skills/>
+					<Experience experiences = {this.state.myExp}/>
 					<section className="Projects" id="projects">
 						<h1 className="text_heading_2 special_headrs">PROJECTS</h1>
 						<></>

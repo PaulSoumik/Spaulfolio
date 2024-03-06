@@ -31,7 +31,7 @@ function Resume() {
 				<nav>
 					<a href="#"><i className="fa fa-download" aria-hidden="true"></i></a>
 				</nav>
-				<p className="text_medium"> <a href="https://docs.google.com/document/d/1V0PWc6ZgoDr6HQxC2E-E771cKQAsaFLyYxZT3HTd1dA/edit?usp=sharing" target="_blank" style={{color: "inherit"}}>get my Resume </a></p>
+				<p className="text_medium"> <a href="https://docs.google.com/document/d/13Vtc4176ErZNAV-UAS3G9AU87c7bovysD6wy9TLv688/edit?usp=sharing" target="_blank" style={{color: "inherit"}}>get my Resume </a></p>
 			</div>
 		</div>
 	</section>

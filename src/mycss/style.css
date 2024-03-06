@@ -31,7 +31,7 @@ section{
 }
 .text_heading_1{
 	font-size: 4.3rem;
-	color: #86c232;
+	color: #4d62da;
 	font-weight: 400;
 	margin-bottom: 0;
 
@@ -39,11 +39,15 @@ section{
 
 .text_heading_2{
 	font-size: 24px; 
-	color: #86c232;
+	color: #4d62da;
 	font-weight: 500; 
 }
 .text_heading_3{
 	font-size: 22px;
+	font-weight: 500; 
+}
+.text_heading_4{
+	font-size: 18px;
 	font-weight: 500; 
 }
 .text_medium{
@@ -79,7 +83,7 @@ section{
     margin-top: 1.8rem;
     font-size: 1.2em;
     font-weight: 500;
-    color: #86c232;
+    color: #4d62da;
 }
 .forward_link a{
 	color: inherit;
@@ -116,6 +120,10 @@ section{
 	flex: 0 25%;
 	max-width: 25%
 }
+
+.flex_card{
+	max-width: 40%;
+}
 .special_headrs{
     font-size: 2.4em;
     font-weight: 400;
@@ -135,7 +143,7 @@ section{
 	height: 4rem;
 	width: 4rem;
 	border-radius: 50%;
-	background: #83c232;
+	background: #4d62da;
 	position: absolute;
 	
 	margin-left: -1rem;
@@ -175,11 +183,11 @@ input{
 }
 input:hover{
 	/*border-radius: 0.432rem;*/
-	border: solid 0.5px #86c232;
+	border: solid 0.5px #4d62da;
 }
 input:focus{
 	border-radius: 0.432rem;
-	border: solid 0.5px #66a212;
+	border: solid 0.5px #4d62da;
 }
 input[name='message']{
 	min-height: 100px;
@@ -192,10 +200,10 @@ button[type='submit']:hover{
 	opacity: 0.9;
 }
 button{
-	border: 1px solid #86c232;
+	border: 1px solid #4d62da;
     padding: 0.3rem 0.9rem;
     border-radius: 3rem;
-    background: #86c232;
+    background: #4d62da;
     color: #fff;
 }
 .flex_column{

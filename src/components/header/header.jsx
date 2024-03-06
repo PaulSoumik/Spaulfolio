@@ -36,7 +36,7 @@ function Header() {
 		<section className = "Header" id={mobileView ? "mob" : "bigsc"}>
 			<div className= "display_flex header-align">
   			{mobileView ? ( <button className="header-btn" onClick={display}>{icon}</button> ) : (<></>)}
-        <a>Soumik</a>
+        <a>Dev</a>
       </div>
 			<Navbar idName = {displaynav ? "active" : "inactive"}/>
 		</section>
