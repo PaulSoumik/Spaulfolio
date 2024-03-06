@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Spaulfolio/static/css/main.f54996b1.css",
+    "main.js": "/Spaulfolio/static/js/main.75fd8d62.js",
+    "index.html": "/Spaulfolio/index.html",
+    "main.f54996b1.css.map": "/Spaulfolio/static/css/main.f54996b1.css.map",
+    "main.75fd8d62.js.map": "/Spaulfolio/static/js/main.75fd8d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f54996b1.css",
+    "static/js/main.75fd8d62.js"
+  ]
+}
