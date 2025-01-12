@@ -39,9 +39,9 @@ function Landing() {
 
 		</div>
 		<nav className="link_container display_flex">
-			<a href="https://www.linkedin.com/in/soumik-paul/"><i className="fab fa-linkedin-in"></i></a>
-			<a href="https://github.com/PaulSoumik"><i className="fab fa-github"></i></a>
-			<a href="https://www.instagram.com/_lostinunknown/"><i className="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/soumik-paul/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+			<a href="https://github.com/PaulSoumik" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+			<a href="https://www.instagram.com/_lostinunknown/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
 			<a href="mailto:soumikpaul1999@gmail.com"><i className="far fa-envelope"></i></a>
 		</nav>
 	</section>
