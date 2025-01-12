@@ -57,6 +57,9 @@
 .content_container{
 	
 }
+.link_container a{
+	cursor: pointer;
+}
 
 .heading_container .text_heading_1{
 	
