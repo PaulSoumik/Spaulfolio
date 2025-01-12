@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Spaulfolio/static/css/main.f54996b1.css",
-    "main.js": "/Spaulfolio/static/js/main.75fd8d62.js",
+    "main.css": "/Spaulfolio/static/css/main.da9d314d.css",
+    "main.js": "/Spaulfolio/static/js/main.cd990c5b.js",
     "index.html": "/Spaulfolio/index.html",
-    "main.f54996b1.css.map": "/Spaulfolio/static/css/main.f54996b1.css.map",
-    "main.75fd8d62.js.map": "/Spaulfolio/static/js/main.75fd8d62.js.map"
+    "main.da9d314d.css.map": "/Spaulfolio/static/css/main.da9d314d.css.map",
+    "main.cd990c5b.js.map": "/Spaulfolio/static/js/main.cd990c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f54996b1.css",
-    "static/js/main.75fd8d62.js"
+    "static/css/main.da9d314d.css",
+    "static/js/main.cd990c5b.js"
   ]
 }
